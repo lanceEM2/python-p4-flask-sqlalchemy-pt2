@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 from flask import Flask, make_response
+
+# Ensure to run pip install --upgrade flask werkzeug in the pipenv terminal
+
 from flask_migrate import Migrate
 
 from models import Owner, Pet
